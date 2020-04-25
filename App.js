@@ -16,9 +16,6 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>как дела?
-        
-      </Text>
       <View style={styles.formLoginWrap}>
         <Input placeholder='Login' value={loginValue} setLoginValue={text => setLoginValue(text)}/>
         <Input placeholder='Password' type='password' value={passwordValue} setPasswordValue={text => setPasswordValue(text)}/>
